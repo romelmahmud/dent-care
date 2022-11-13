@@ -1,7 +1,26 @@
 import React from "react";
+import {
+  Banner,
+  ContactUs,
+  DentalCare,
+  Info,
+  MakeAppointment,
+  Services,
+  Testimonial,
+} from "./Components";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <Banner />
+      <Info />
+      <Services />
+      <DentalCare />
+      <MakeAppointment />
+      <Testimonial />
+      <ContactUs />
+    </>
+  );
 };
 
 export default Home;
